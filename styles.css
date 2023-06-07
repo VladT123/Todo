@@ -1,0 +1,104 @@
+body{
+    background-image: url('Graphics/PAWS_BG.jpg');
+    background-color: #fef7e2;
+    font-family: Arial;
+    color: rgb(223, 131, 10);
+    font-weight: bold;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.input{
+    width: 60%;
+    height: 160px;
+    font-size: xxx-large;
+    background-color: #ffe871;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.new-input{
+    width: 40%;
+    height: 160px;
+    font-size: xxx-large;
+    background-color: #ffe871;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.date{
+    font-size: xxx-large;
+    padding-top: 10px;
+    height: 150px;
+    background-color: #ffe871;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.add-button{
+    font-size: xxx-large;
+    padding: 100px 80px 60px 80px; 
+    background-color: #ffe771;
+    background-image: url("Graphics/PAW_BG.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.todo-message{
+    color: #4d2f23;
+    font-size: 55px;
+}
+.edit-button{
+    background-color: #f1c707;
+    font-size: xxx-large;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.delete-button{
+    background-color: #dd1b1b;
+    font-size: xxx-large;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.update-button{
+    background-color: #f1c707;
+    font-size: xxx-large;
+    border-color: #4d2f23;
+    border-width: 10px;
+    border-radius: 5000px;
+    cursor: pointer;
+}
+.time{
+    color: #f1c707;
+    text-decoration: underline;
+}
+li::marker {
+    color: #07e1f1;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: xxx-large;
+    background-color: #c300ff;
+    background-image: url('Graphics/nswCH.png');
+    background-repeat: no-repeat;
+}
+ol{ 
+    margin-left: 140px;
+    margin-right: 200px;
+}
+
+@media (orientation:portrait) {
+    body{
+        background-image: url('Graphics/PAWS_BG_alt.jpg');
+    }
+}
