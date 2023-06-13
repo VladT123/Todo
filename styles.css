@@ -1,3 +1,6 @@
+html{
+    height: 100vh;
+}
 body{
     font-family: Arial;
     color: rgb(223, 131, 10);
@@ -7,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 220vh;
+    height:100%;
 }
 .input{
     width: 60%;
@@ -101,6 +104,5 @@ ol{
 @media (orientation:portrait) {
     body{
         background-image: url('Graphics/PAWS_BG_alt.jpg');
-        background-size: 110vh;
     }
 }
