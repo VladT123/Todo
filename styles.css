@@ -3,12 +3,11 @@ body{
     color: rgb(223, 131, 10);
     font-weight: bold;
     background-image: url('Graphics/PAWS_BG.jpg'); 
-    background-color: #a83232;
+    background-color: #49eb34;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 120%;
-    height: 100vh;
+    background-size: 220vh;
 }
 .input{
     width: 60%;
@@ -102,5 +101,6 @@ ol{
 @media (orientation:portrait) {
     body{
         background-image: url('Graphics/PAWS_BG_alt.jpg');
+        background-size: 110vh;
     }
 }
