@@ -1,12 +1,15 @@
 body{
-    background-image: url('Graphics/PAWS_BG.jpg');
-    background-color: #fef7e2;
     font-family: Arial;
     color: rgb(223, 131, 10);
     font-weight: bold;
+    background-image: url('Graphics/PAWS_BG.jpg'); 
+    background-color: #fef7e2;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
 .input{
     width: 60%;
