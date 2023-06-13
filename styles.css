@@ -3,13 +3,12 @@ body{
     color: rgb(223, 131, 10);
     font-weight: bold;
     background-image: url('Graphics/PAWS_BG.jpg'); 
-    background-color: #fef7e2;
+    background-color: #a83232;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: cover;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
+    background-size: 120%;
+    height: 100vh;
 }
 .input{
     width: 60%;
