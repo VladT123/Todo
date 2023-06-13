@@ -1,5 +1,3 @@
-document.body.style.backgroundSize = "120%";
-
 //Model
 let indexToEdit = -1
 const todo_list = JSON.parse(localStorage.getItem("todo") || "[]");
